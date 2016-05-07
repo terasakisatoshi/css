@@ -1,0 +1,9 @@
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\bin\Debug\MyMemo.exe.config
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\bin\Debug\MyMemo.exe
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\bin\Debug\MyMemo.pdb
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\obj\Debug\MyMemo.csprojResolveAssemblyReference.cache
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\obj\Debug\MyMemo.MyMemo.resources
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\obj\Debug\MyMemo.Properties.Resources.resources
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\obj\Debug\MyMemo.csproj.GenerateResource.Cache
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\obj\Debug\MyMemo.exe
+C:\Users\s.terasaki\OneDrive\ドキュメント\Visual Studio 2015\Code Snippets\Visual C++\MyMemo\MyMemo\obj\Debug\MyMemo.pdb
