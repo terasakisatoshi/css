@@ -24,5 +24,9 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+        void HowdyClicked(object sender, RoutedEventArgs e)
+        {
+            //write code something
+        }
     }
 }
