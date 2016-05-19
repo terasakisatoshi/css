@@ -2,11 +2,11 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="HelloWorld" Height="350" Width="525">
-    <StackPanel>
+    <WrapPanel>
         <Button>Hello</Button>
-        <Button>Hi SecondButton</Button>
+        <Button Content="Hi SecondButton"/>
         <TextBox>編集可能なテキストボックス</TextBox>
         <CheckBox>チェックボックス</CheckBox>
         <Slider Width="75" Minimum="0" Maximum="100" Value="50" Margin="222,0,182.4,0" Height="20" />
-    </StackPanel>
+    </WrapPanel>
 </Window>
