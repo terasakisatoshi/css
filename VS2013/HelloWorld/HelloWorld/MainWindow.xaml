@@ -2,11 +2,25 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="HelloWorld" Height="345.347" Width="575.375">
-    <WrapPanel>
-        <Button Click="HowdyClicked">Hello</Button>
-        <Button Content="Hi SecondButton"/>
+    <Window.Resources>
+        <SolidColorBrush x:Key="bg" Color="Red"/>
+    </Window.Resources>
+    <DockPanel>
+    <WrapPanel  DockPanel.Dock="Top">
+        <Button Background="{StaticResource bg}" Click="HowdyClicked"> Content="Hello</Button>
+        <Button Background="{StaticResource bg}" Content="Hi SecondButton"/>
         <TextBox x:Name="_text1">編集可能なテキストボックス</TextBox>
-        <CheckBox>チェックボックス</CheckBox>
-        <Slider Width="75" Minimum="0" Maximum="100" Value="50" Margin="222,0,182.4,0" Height="20" />
+        <CheckBox Content="{Binding ElementName=_text1,Path=Text}"/>
+        <Slider Width="75" Minimum="0" Maximum="100" Value="50" Margin="222,0,182.4,0" Height="20" RenderTransformOrigin="-0.827,3.48" />
     </WrapPanel>
+    <Rectangle Margin="5">
+        <Rectangle.Fill>
+                <LinearGradientBrush>
+                    <GradientStop Offset="0" Color="Red"/>
+                    <GradientStop Offset="5" Color="White"/>
+                    <GradientStop Offset="1" Color="Blue"/>
+                </LinearGradientBrush>
+        </Rectangle.Fill>
+    </Rectangle>
+    </DockPanel>
 </Window>
