@@ -6,7 +6,7 @@
         <SolidColorBrush x:Key="bg" Color="Red"/>
     </Window.Resources>
     <DockPanel>
-    <WrapPanel  DockPanel.Dock="Top">
+    <WrapPanel x:Name="panel1"  DockPanel.Dock="Top">
         <Button Background="{StaticResource bg}" Click="HowdyClicked"> Content="Hello</Button>
         <Button Background="{StaticResource bg}" Content="Hi SecondButton"/>
         <TextBox x:Name="_text1">編集可能なテキストボックス</TextBox>
@@ -15,12 +15,11 @@
     </WrapPanel>
     <Rectangle Margin="5">
         <Rectangle.Fill>
-                <LinearGradientBrush>
-                    <GradientStop Offset="0" Color="Red"/>
-                    <GradientStop Offset="5" Color="White"/>
-                    <GradientStop Offset="1" Color="Blue"/>
-                </LinearGradientBrush>
-        </Rectangle.Fill>
+                <VisualBrush
+                Visual="{Binding ElementName=panel1}"
+                Viewport="0,0,.5,.2"
+                TileMode="Tile"/>
+            </Rectangle.Fill>
     </Rectangle>
     </DockPanel>
 </Window>
