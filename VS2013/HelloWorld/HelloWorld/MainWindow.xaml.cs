@@ -26,7 +26,7 @@ namespace HelloWorld
         }
         void HowdyClicked(object sender, RoutedEventArgs e)
         {
-            //write code something
+            _text1.Text = "C#からこんにちは"; 
         }
     }
 }

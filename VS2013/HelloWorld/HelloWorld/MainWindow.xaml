@@ -5,7 +5,7 @@
     <WrapPanel>
         <Button Click="HowdyClicked">Hello</Button>
         <Button Content="Hi SecondButton"/>
-        <TextBox>編集可能なテキストボックス</TextBox>
+        <TextBox x:Name="_text1">編集可能なテキストボックス</TextBox>
         <CheckBox>チェックボックス</CheckBox>
         <Slider Width="75" Minimum="0" Maximum="100" Value="50" Margin="222,0,182.4,0" Height="20" />
     </WrapPanel>
