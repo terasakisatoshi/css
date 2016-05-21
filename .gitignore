@@ -31,3 +31,4 @@ VS2013/YoutubeExercise/YoutubeExercise/obj/Debug/MainWindow.baml
 *.cache
 VS2013/YoutubeExercise/YoutubeExercise/obj/Debug/App.g.cs
 VS2013/YoutubeExercise/YoutubeExercise/obj/Debug/
+*.suo
