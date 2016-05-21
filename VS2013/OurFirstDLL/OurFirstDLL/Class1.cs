@@ -8,5 +8,10 @@ namespace OurFirstDLL
 {
     public class Class1
     {
+        public int AddNumber(int a, int b)
+        {
+            int result=a+b;
+            return result;
+        }
     }
 }
