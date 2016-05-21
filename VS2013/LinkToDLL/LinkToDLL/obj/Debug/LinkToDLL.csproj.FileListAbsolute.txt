@@ -1,1 +1,11 @@
 C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\bin\Debug\LinkToDLL.exe.config
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\bin\Debug\LinkToDLL.exe
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\bin\Debug\LinkToDLL.pdb
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\bin\Debug\OurFirstDLL.dll
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\bin\Debug\OurFirstDLL.pdb
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\obj\Debug\LinkToDLL.csprojResolveAssemblyReference.cache
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\obj\Debug\LinkToDLL.Form1.resources
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\obj\Debug\LinkToDLL.Properties.Resources.resources
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\obj\Debug\LinkToDLL.csproj.GenerateResource.Cache
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\obj\Debug\LinkToDLL.exe
+C:\Users\teras\work\css\VS2013\LinkToDLL\LinkToDLL\obj\Debug\LinkToDLL.pdb

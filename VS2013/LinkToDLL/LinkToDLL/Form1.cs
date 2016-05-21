@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using OurFirstDLL;
 namespace LinkToDLL
 {
     public partial class Form1 : Form
@@ -15,6 +15,12 @@ namespace LinkToDLL
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var DLLTest = new OurFirstDLL.Class1();
+            MessageBox.Show(DLLTest.AddNumber(2, 3).ToString());
         }
     }
 }
