@@ -24,5 +24,12 @@ namespace YoutubeExercise
         {
             InitializeComponent();
         }
+
+        private void Demo2_Click(object sender, RoutedEventArgs e)
+        {
+            var btn = (Button)e.OriginalSource;
+            MessageBox.Show(String.Format("Hello from {0}", btn.Name));
+
+        }
     }
 }
