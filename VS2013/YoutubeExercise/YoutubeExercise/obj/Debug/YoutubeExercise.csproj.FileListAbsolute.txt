@@ -1,0 +1,13 @@
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\bin\Debug\YoutubeExercise.exe.config
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise.csprojResolveAssemblyReference.cache
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\MainWindow.baml
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\MainWindow.g.cs
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\App.g.cs
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise_MarkupCompile.cache
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise.g.resources
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise.Properties.Resources.resources
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise.csproj.GenerateResource.Cache
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\bin\Debug\YoutubeExercise.exe
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\bin\Debug\YoutubeExercise.pdb
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise.exe
+C:\Users\teras\work\css\VS2013\YoutubeExercise\YoutubeExercise\obj\Debug\YoutubeExercise.pdb
