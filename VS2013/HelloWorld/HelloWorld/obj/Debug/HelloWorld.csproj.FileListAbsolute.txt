@@ -1,1 +1,13 @@
 C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\MainWindow.baml
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\MainWindow.g.cs
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\App.g.cs
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.cache
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld.g.resources
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Terasaki\Desktop\work\css\VS2013\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
