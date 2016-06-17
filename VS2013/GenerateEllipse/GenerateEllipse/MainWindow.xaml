@@ -1,0 +1,41 @@
+﻿<Window x:Class="GenerateEllipse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel>
+        <Button Content="追加" DockPanel.Dock="Top"
+                HorizontalAlignment="Center"
+                Click="Button_Click" />
+        <ItemsControl Name="DragList">
+
+            <!--配置方式(パネル)をカスタマイズ-->
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <!--リストアイテムの表示をカスタマイズ-->
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Thumb DragDelta="Thumb_DragDelta" >
+                        <Thumb.Template>
+                            <ControlTemplate>
+
+                                <!--ドラッグ対象のオブジェクトを定義する-->
+                                <Grid Width="100" Height="30">
+                                    <Ellipse Fill="LightBlue" Stroke="Blue" />
+                                    <TextBlock Text="{Binding}" 
+                                               HorizontalAlignment="Center" 
+                                               VerticalAlignment="Center"/>
+                                </Grid>
+
+                            </ControlTemplate>
+                        </Thumb.Template>
+                    </Thumb>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+
+        </ItemsControl>
+    </DockPanel>
+</Window>

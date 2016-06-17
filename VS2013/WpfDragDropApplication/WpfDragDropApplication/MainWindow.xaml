@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfDragDropApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <TabControl>
+        <TabItem Header="TextBox">
+            <DockPanel>
+                <!-- テキストボックス同士でドラッグアンドドロップ -->
+                <TextBox DockPanel.Dock="Top" Name="tbox1" Height="100" Text="Sample Text"/>
+                <TextBox DockPanel.Dock="Top" Name="tbox2" Text="Test String"/>
+            </DockPanel>
+        </TabItem>
+        <TabItem Header="Labels">
+            <StackPanel Orientation="Horizontal">
+                <!--ラベル同士でドラッグアンドドロップ-->
+                <Label DockPanel.Dock="Left" Name="label1" Content="Item1" AllowDrop="True"
+                       MouseDown="label_MouseDown" DragOver="label_DragOver" Drop="label_Drop"/>
+                <Label DockPanel.Dock="Left" Name="label2" Content="Item2" AllowDrop="True"
+                       MouseDown="label_MouseDown" DragOver="label_DragOver" Drop="label_Drop"/>
+                <Label DockPanel.Dock="Left" Name="label3" Content="Item3" AllowDrop="True"
+                       MouseDown="label_MouseDown" DragOver="label_DragOver" Drop="label_Drop"/>
+            </StackPanel>            
+        </TabItem>
+        <TabItem Header="FileDrop">
+            <TextBox Name="tbox3" TextWrapping="Wrap" PreviewDragOver="tbox3_PreviewDragOver" Drop="tbox3_Drop"/>
+        </TabItem>
+    </TabControl>
+</Window>
